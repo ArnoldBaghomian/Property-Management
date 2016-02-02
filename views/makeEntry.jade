@@ -1,0 +1,25 @@
+extends layout
+block content
+  script(src='/javascripts/makeEntry.js')
+  .container
+    h1 Apartment 
+    br
+    form#addApartment(role='form')
+        .form-group
+          label(for='email') Apartment #:
+          input#apartment.form-control(type='text')
+        .form-group
+          label(for='pwd') Tenant Names:
+          input#tenant.form-control(type='text')
+        .form-group
+          label(for='pwd') Price:
+          input#cost.form-control(type='text')
+        .form-group
+          label(for='pwd') Rooms:
+          input#rooms.form-control(type='text')
+        .form-group
+          label(for='pwd') Rooms Availble:
+          input#roomsA.form-control(type='text')
+
+    a.btn.btn-success.btn-circle(href='/apartment') Save
+    a.btn.btn-primary.btn-circle(href='/apartment') Back

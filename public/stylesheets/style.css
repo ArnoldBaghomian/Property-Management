@@ -1,0 +1,96 @@
+#coverback{
+  padding: 50px;
+  background-image: url("http://www.apartmentseo.com/wp-content/uploads/2012/11/slider-seo-for-apartments-4.jpg");
+    background-size: cover;
+    background-position: top right;
+    background-position-x: 100%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    font-weight: 20px;
+    font-size: 20px;
+    
+}
+
+.form-control{
+    width: 40%;
+
+}
+
+
+.coverhead{
+  font-weight: 40px; 
+  color: white;
+  font-family: gothic;
+  font-size: 60px;
+}
+
+.coverbody{
+  text-align: center;
+  color: white;
+  padding-left: 320px;
+  font-weight: 20px;
+  font-size: 40px;
+  font-family: gothic;
+}
+
+.coverbody:hover{
+  color: red;
+  text-decoration: none;
+}
+
+table {
+  width: 90%;
+  margin-left: 0%;
+  margin-right: 20%;
+  align:left;
+  align-items: left;
+  align-self:left;
+  align-content: left;
+  alignment-adjust: baseline;
+  alignment-baseline: baseline;
+  child-align: left;
+
+}
+
+h1 {
+  align:right;
+}
+
+.bottom {
+  align:center;
+  font-size: 2em;
+}
+
+tr {
+  align:left;
+}
+
+td {
+  align:left;
+}
+
+
+.btn-rounded {
+  width: 1em;
+  height: 1em;
+  padding:1em;
+  border-radius: 50%;
+}
+
+.btn-circle {
+  width: 5em;
+  height: 3em;
+  text-align: center;
+  border-radius: 45%;
+}
+
+.sum {
+  font-size: 2em;
+}
+
+th {
+  font-size: 150%;
+}

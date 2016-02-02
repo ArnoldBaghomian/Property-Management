@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1(align='center') Apartment List&nbsp;&nbsp;
+    a.btn.btn-success.btn-circle(href='/apartment/makeEntry') Add
+    a.btn.btn-success.btn-circle(href='/') cover
+  table.table-striped
+    thead
+    tbody.items-list
+    script(src='javascripts/main.js')
+  div.bottom
+    //- span.Header Total: $
+    //- span.text.bottomLine
